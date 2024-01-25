@@ -1,0 +1,208 @@
+
+
+/*########## Common CSS start #########  */
+.mt-20{margin-top: 20px;}
+.mb-20{margin-bottom: 20px;}
+
+.mt-40{margin-top: 40px;}
+.mb-40{margin-bottom: 40px;}
+
+/* html, body{
+	margin:0;
+	font-size: 100%;
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+} */
+/* body a {
+	text-decoration:none;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+} */
+/* a:hover{
+ text-decoration:none;
+} */
+
+
+/* h1,h2,h3,h4,h5,h6{
+	margin:0;
+font-family: 'Open Sans', sans-serif;
+}	
+p{
+	margin:0;
+	letter-spacing:1px;
+	font-size: 0.9em;
+} */
+/* ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+} */
+
+/*########## Common CSS END #########  */
+
+/*----------------------------------- Index Page Start -------------------------------------  */
+
+
+/*------------------- Company Featured Start -----------------------  */
+      .feature{
+       padding: 3em 0;
+       margin-bottom: 0;
+      }
+
+
+    .left_icon{
+      float: left;
+      width: 70px;
+      height: 70px;
+      text-align: center;
+      background-color: #800;
+      }
+
+      .left_icon i{
+        font-size: 1.3em;
+        color: #fff;
+        line-height: 3.2em;
+      }
+
+    .right_icon{
+    float: right;
+    width: 70%;
+    text-align: left;
+    }
+
+    .right_icon h3{
+    font-size: 0.9em;
+    color: #2fdab8;
+    margin: 0em 0 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    }
+
+    .right_icon p{
+    color: #545454;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    }
+
+/*----------------- Company Featured End ---------------------  */
+
+
+
+
+/*----------------------------------- Index Page End -------------------------------------  */
+
+/*----------------------------------- Single Page Start -------------------------------------  */
+	
+
+	/*---------------------- Breadcrumb Start ---------------------  */
+	.breadcrumb{
+    background: url("../img/bg-06.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    min-height: 200px;
+    padding-top: 50px;
+}
+
+.breadcrumb h3 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+    ul.breadcrumb-ul {
+    text-align: left;
+    padding-top: 2.5em;
+}
+
+ul.breadcrumb-ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+ul.breadcrumb-ul li a{
+    color: #2fdab8;
+    text-decoration: none;
+}
+
+.breadcrumb-ul-content ul li i {
+    padding: 0 1.5em;
+}
+
+.breadcrumb-ul-content {
+    padding: 0;
+    background: none;
+    text-align: center;
+}
+  /*---------------------- Breadcrumb End ---------------------  */
+  
+
+
+
+
+
+
+/*----------------------------------- Single Page End -------------------------------------  */
+
+
+/*----------------------------------- About us page start -------------------------------------  */
+.about-left img{
+  max-width: 100%;
+}
+
+.about-right h5 {
+text-transform: uppercase;
+font-size: 2em;
+color: #212121;
+letter-spacing: 2px;
+font-weight: 700;
+margin-bottom: 1.5em;
+}
+
+/*----------------------------------- About us page end -------------------------------------  */
+
+
+.contact-grid-4 {
+  text-align: center;
+}
+
+.contact-grid-4-content{
+background: #800;
+padding: 2em 1em;
+}
+
+.contact-grid-4 i {
+  color: #fff;
+  font-size: 33px;
+}
+
+.contact-grid-4 h4 {
+  color: #2fdab8;
+  font-size: 1.3em;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-grid-4 p {
+ padding: 0 40px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 2em;
+}
